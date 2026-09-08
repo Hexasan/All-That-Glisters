@@ -1,0 +1,1 @@
+execute as @e[type=egg,tag=!allthatglisters.checked] run function allthatglisters:egg/check

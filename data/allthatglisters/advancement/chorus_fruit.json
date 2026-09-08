@@ -1,0 +1,20 @@
+{
+    "criteria": {
+        "requirement": {
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:popped_chorus_fruit",
+                        "components": {
+                            "break_sound": "entity.item.break"
+                        }
+                    }
+                ]
+            },
+            "trigger": "minecraft:inventory_changed"
+        }
+    },
+    "rewards": {
+        "function": "allthatglisters:replace/popped_chorus_fruit"
+    }
+}

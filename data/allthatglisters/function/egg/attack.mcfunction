@@ -1,0 +1,2 @@
+advancement revoke @s only allthatglisters:attack
+execute as @n[type=interaction,tag=allthatglisters.egg_interaction,distance=..16,nbt={attack:{}}] on vehicle positioned as @s run function allthatglisters:egg/apply_motion

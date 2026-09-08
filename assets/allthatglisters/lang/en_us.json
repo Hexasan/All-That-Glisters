@@ -1,0 +1,23 @@
+{
+    "allthatglisters.golden_beetroot": "Golden Beetroot",
+    "allthatglisters.golden_cookie": "Golden Cookie",
+    "allthatglisters.golden_pumpkin_pie": "Golden Pumpkin Pie",
+    "allthatglisters.golden_glow_berries": "Golden Glow Berries",
+    "allthatglisters.golden_sweet_berries": "Golden Sweet Berries",
+    "allthatglisters.golden_poppy": "Golden Poppy",
+    "allthatglisters.golden_cornflower": "Golden Cornflower",
+    "allthatglisters.golden_egg": "Golden Egg",
+
+    "allthatglisters.any_golden_flower.name": "A Touch Of Gold",
+    "allthatglisters.any_golden_flower.desc": "Craft a golden flower with a bit of gold",
+    
+    "allthatglisters.use_golden_cornflower.name": "They Grow Up So Fast",
+    "allthatglisters.use_golden_cornflower.desc": "Use a Golden Cornflower to instantanously grow a baby animal",
+
+    "allthatglisters.use_golden_dandelion.name": "Eternal Youth",
+    "allthatglisters.use_golden_dandelion.desc": "Use a Golden Dandelion on a baby animal to prevent its aging",
+    
+    "allthatglisters.use_golden_poppy.name": "Not Free From Desire",
+    "allthatglisters.use_golden_poppy.desc": "Use a Golden Poppy to reset an animal's breeding cooldown"
+
+}

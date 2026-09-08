@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+        "#": "minecraft:gold_nugget",
+        "X": "minecraft:carrot"
+    },
+    "pattern": [
+        "###",
+        "#X#",
+        "###"
+    ],
+    "result": {
+        "id": "minecraft:golden_carrot",
+        "components": {
+            "minecraft:rarity": "uncommon",
+            "minecraft:consumable": {"on_consume_effects": [{"type": "apply_effects","effects": [{"id":"night_vision","duration": 1800,"amplifier": 0}]}]}
+    }
+    }
+}

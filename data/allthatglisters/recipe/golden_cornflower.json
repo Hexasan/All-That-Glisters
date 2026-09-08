@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+        "#": "minecraft:gold_nugget",
+        "X": "minecraft:cornflower"
+    },
+    "pattern": [
+        "###",
+        "#X#",
+        "###"
+    ],
+    "result": {
+        "id": "minecraft:poisonous_potato",
+        "components": {
+            "minecraft:rarity": "uncommon",
+            "custom_data": {"custom_id": "allthatglisters:golden_cornflower","allthatglisters.golden_flower":true},
+            "food": {"can_always_eat": true, "nutrition": 0, "saturation": 0},
+            "minecraft:consumable": {"animation": "none", "consume_seconds": 999999},
+            "use_effects": {"speed_multiplier": 1,"can_sprint": true, "interact_vibrations": false},
+            "item_name": {"translate": "allthatglisters.golden_cornflower","fallback": "Golden Cornflower"},
+            "item_model": "allthatglisters:golden_cornflower"
+    }
+    }
+}

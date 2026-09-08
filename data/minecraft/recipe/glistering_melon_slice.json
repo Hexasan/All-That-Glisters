@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+        "#": "minecraft:gold_nugget",
+        "X": "minecraft:melon_slice"
+    },
+    "pattern": [
+        "###",
+        "#X#",
+        "###"
+    ],
+    "result": {
+        "id": "minecraft:glistering_melon_slice",
+        "components": {
+            "minecraft:rarity": "uncommon",
+            "minecraft:food": {"nutrition": 6, "saturation": 14.4},
+            "minecraft:consumable": {"on_consume_effects": [{"type": "apply_effects","effects": [{"id": "regeneration","duration": 1,"amplifier": 7}]}]}
+    }
+    }
+}

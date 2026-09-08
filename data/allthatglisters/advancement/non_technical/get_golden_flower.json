@@ -1,0 +1,36 @@
+{
+    "parent": "minecraft:husbandry/root",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:poisonous_potato",
+                            "minecraft:golden_dandelion"
+                        ],
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "allthatglisters.golden_flower": true
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "display": {
+        "description": {
+            "translate": "allthatglisters.any_golden_flower.desc",
+            "fallback": "Craft a golden flower with a bit of gold"
+        },
+        "icon": {
+            "id": "minecraft:golden_dandelion"
+        },
+        "title": {
+            "translate": "allthatglisters.any_golden_flower.name",
+            "fallback": "A Touch Of Gold"
+        }
+    }
+}

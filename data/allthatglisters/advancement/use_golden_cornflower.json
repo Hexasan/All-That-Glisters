@@ -1,0 +1,28 @@
+{
+    "criteria": {
+        "requirement": {
+            "conditions": {
+                "item": {
+                    "items": "minecraft:poisonous_potato",
+                    "predicates": {
+                        "custom_data": {"custom_id":"allthatglisters:golden_cornflower"}
+                    }
+                },
+                "player": {
+                    "type": "entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "type_specific/player": {
+                            "looking_at": {
+                            }
+                        }
+                    }
+                }
+            },
+            "trigger": "minecraft:using_item"
+        }
+    },
+    "rewards": {
+        "function": "allthatglisters:cornflower/right_click"
+    }
+}

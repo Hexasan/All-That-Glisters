@@ -1,0 +1,12 @@
+{
+    "type": "entity_properties",
+    "entity": "this",
+    "predicate": {
+        "equipment": {
+            "mainhand": {
+                "items": "poisonous_potato",
+                "predicates": {"custom_data": {"custom_id":"allthatglisters:golden_cornflower"}}
+            }
+        }
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+        "#": "minecraft:gold_nugget",
+        "X": "minecraft:dandelion"
+    },
+    "pattern": [
+        "###",
+        "#X#",
+        "###"
+    ],
+    "result": {
+        "id": "minecraft:golden_dandelion",
+        "components": {
+            "minecraft:rarity": "uncommon",
+            "minecraft:custom_data": {"allthatglisters.golden_flower":true}
+    }
+    }
+}

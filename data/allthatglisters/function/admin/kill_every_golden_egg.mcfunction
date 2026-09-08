@@ -1,0 +1,1 @@
+execute as @e[type=sulfur_cube,tag=allthatglisters.egg] at @s run function allthatglisters:egg/kill

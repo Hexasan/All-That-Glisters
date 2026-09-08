@@ -1,0 +1,1 @@
+give @p egg[custom_data={"allthatglisters:golden_egg":1b},minecraft:use_cooldown={seconds:1,cooldown_group:"allthatglisters:golden_egg"},minecraft:item_model="allthatglisters:golden_egg",rarity="uncommon",item_name={"translate": "allthatglisters.golden_egg","fallback": "Golden Egg"}] 1

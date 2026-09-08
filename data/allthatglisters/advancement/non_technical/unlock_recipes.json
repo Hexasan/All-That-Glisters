@@ -1,0 +1,26 @@
+{
+    "criteria": {
+        "criteria": {
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:gold_ingot"
+                    }
+                ]
+            },
+            "trigger": "minecraft:inventory_changed"
+        }
+    },
+    "rewards": {
+        "recipes": [
+            "allthatglisters:golden_beetroot",
+            "allthatglisters:golden_cornflower",
+            "allthatglisters:golden_egg",
+            "allthatglisters:golden_cookie",
+            "allthatglisters:golden_poppy",
+            "allthatglisters:golden_glow_berries",
+            "allthatglisters:golden_pumpkin_pie",
+            "allthatglisters:golden_sweet_berries"
+        ]
+    }
+}

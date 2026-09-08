@@ -1,0 +1,21 @@
+{
+    "criteria": {
+        "requirement": {
+            "conditions": {
+                
+                "items": [
+                    {
+                        "items": "minecraft:golden_apple",
+                        "components": {
+                            "minecraft:rarity": "common"
+                        }
+                    }
+                ]
+            },
+            "trigger": "minecraft:inventory_changed"
+        }
+    },
+    "rewards": {
+        "function": "allthatglisters:replace/golden_apple"
+    }
+}

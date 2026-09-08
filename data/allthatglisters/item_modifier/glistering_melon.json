@@ -1,0 +1,8 @@
+{
+    "type": "set_components",
+    "components": {
+    "minecraft:rarity": "uncommon",
+    "minecraft:food": {"nutrition": 6, "saturation": 14.4, "can_always_eat": true},
+    "minecraft:consumable": {"on_consume_effects": [{"type": "apply_effects","effects": [{"id": "regeneration","duration": 1,"amplifier": 7}]}]}
+    }
+}

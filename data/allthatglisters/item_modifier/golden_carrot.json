@@ -1,0 +1,8 @@
+{
+    "type": "set_components",
+    "components": {
+    "minecraft:rarity": "uncommon",
+    "minecraft:consumable": {"on_consume_effects": [{"type": "apply_effects","effects": [{"id": "night_vision","duration": 1800,"amplifier": 0}]}]},
+    "food": {"nutrition":4,"saturation":14.400001, "can_always_eat": true}
+    }
+}

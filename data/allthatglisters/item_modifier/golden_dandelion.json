@@ -1,0 +1,7 @@
+{
+    "type": "set_components",
+    "components": {
+    "minecraft:rarity": "uncommon",
+    "custom_data": {"allthatglisters.golden_flower":true}
+    }
+}

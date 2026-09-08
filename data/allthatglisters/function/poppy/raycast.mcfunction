@@ -1,0 +1,3 @@
+scoreboard players add .rc_step allthatglisters 5
+execute positioned ^ ^ ^.5 positioned ~-.15 ~-.15 ~-.15 as @n[type=!player,type=!#cannot_be_age_locked,dx=0] positioned ~-.7 ~-.7 ~-.7 if entity @s[dx=0] if data entity @s InLove at @s run return run function allthatglisters:poppy/hit_entity
+execute if score .rc_step allthatglisters <= .rc_range allthatglisters positioned ^ ^ ^.5 if block ~ ~ ~ #air run return run function allthatglisters:poppy/raycast

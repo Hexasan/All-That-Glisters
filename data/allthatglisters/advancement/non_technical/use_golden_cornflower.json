@@ -1,0 +1,22 @@
+{
+    "parent": "allthatglisters:non_technical/get_golden_flower",
+    "criteria": {
+        "requirement": {
+            "trigger": "impossible"
+        }
+    },
+    "display": {
+        "description": {
+            "translate": "allthatglisters.use_golden_cornflower.desc",
+            "fallback": "Use a Golden Cornflower to instantanously grow a baby animal"
+        },
+        "icon": {
+            "id": "minecraft:cornflower",
+            "components": {"item_model":"allthatglisters:golden_cornflower"}
+        },
+        "title": {
+            "translate": "allthatglisters.use_golden_cornflower.name",
+            "fallback": "They Grow Up So Fast"
+        }
+    }
+}

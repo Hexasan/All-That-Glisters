@@ -1,0 +1,22 @@
+{
+    "parent": "allthatglisters:non_technical/get_golden_flower",
+    "criteria": {
+        "requirement": {
+            "trigger": "impossible"
+        }
+    },
+    "display": {
+        "description": {
+            "translate": "allthatglisters.use_golden_poppy.desc",
+            "fallback": "Use a Golden Poppy to reset an animal's breeding cooldown"
+        },
+        "icon": {
+            "id": "minecraft:poppy",
+            "components": {"item_model":"allthatglisters:golden_poppy"}
+        },
+        "title": {
+            "translate": "allthatglisters.use_golden_poppy.name",
+            "fallback": "Not Free From Desire"
+        }
+    }
+}

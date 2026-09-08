@@ -1,0 +1,26 @@
+{
+    "parent": "allthatglisters:non_technical/get_golden_flower",
+    "criteria": {
+        "requirement": {
+            "trigger": "player_interacted_with_entity",
+            "conditions": {
+                "item": {
+                    "items": "golden_dandelion"
+                }
+            }
+        }
+    },
+    "display": {
+        "description": {
+            "translate": "allthatglisters.use_golden_dandelion.desc",
+            "fallback": "Use a Golden Dandelion on a baby animal to prevent"
+        },
+        "icon": {
+            "id": "minecraft:golden_dandelion"
+        },
+        "title": {
+            "translate": "allthatglisters.use_golden_dandelion.name",
+            "fallback": "Eternal Youth"
+        }
+    }
+}

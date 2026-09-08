@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+        "#": "minecraft:gold_nugget",
+        "X": "#eggs"
+    },
+    "pattern": [
+        "###",
+        "#X#",
+        "###"
+    ],
+    "result": {
+        "id": "minecraft:egg",
+        "components": {
+            "minecraft:rarity": "uncommon",
+            "item_name": {"translate": "allthatglisters.golden_egg","fallback": "Golden Egg"},
+            "item_model": "allthatglisters:golden_egg",
+            "custom_data": {"allthatglisters:golden_egg":1},
+            "use_cooldown": {"seconds": 1,"cooldown_group": "allthatglisters:golden_egg"}
+        }
+    }
+}
