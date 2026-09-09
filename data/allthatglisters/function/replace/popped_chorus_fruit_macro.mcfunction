@@ -1,0 +1,1 @@
+$give @s popped_chorus_fruit[break_sound="block.chorus_flower.grow",food={"nutrition":5, "saturation": 3.2,"can_always_eat":false},consumable={}] $(count)

@@ -1,11 +1,15 @@
 {
-    "type": "entity_properties",
+    "condition": "minecraft:entity_properties",
     "entity": "this",
     "predicate": {
-        "equipment": {
+        "minecraft:equipment": {
             "mainhand": {
-                "items": "poisonous_potato",
-                "predicates": {"custom_data": {"custom_id":"allthatglisters:golden_poppy"}}
+                "items": "minecraft:poisonous_potato",
+                "predicates": {
+                    "minecraft:custom_data": {
+                        "custom_id": "allthatglisters:golden_poppy"
+                    }
+                }
             }
         }
     }

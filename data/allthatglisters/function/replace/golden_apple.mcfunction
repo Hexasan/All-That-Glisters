@@ -1,8 +1,8 @@
-advancement revoke @s only allthatglisters:golden_apple
+advancement revoke @s only allthatglisters:replace/golden_apple
 
-# Don't run if already ran this tick
-execute store result score .temp allthatglisters.apple run time query gametime
-execute if score @s allthatglisters.apple = .temp allthatglisters.apple run return run scoreboard players operation @s allthatglisters.apple = .temp allthatglisters.apple
-scoreboard players operation @s allthatglisters.apple = .temp allthatglisters.apple
+execute if entity @s[gamemode=creative] if items entity @s hotbar.0 golden_apple[rarity="common"] run return fail
 
-item modify entity @s {type:"minecraft:filtered",slot_source:[{type:"minecraft:slot_range",slots:"inventory.*"},{type:"minecraft:slot_range",slots:"hotbar.*"},{type:"minecraft:slot_range",slots:"player.cursor"}],item_filter:{items:"minecraft:golden_apple",components:{rarity:"common"}}} allthatglisters:uncommon
+execute store result score #count allthatglisters run clear @s golden_apple[rarity="common"]
+
+execute store result storage allthatglisters:storage count int 1 run scoreboard players get #count allthatglisters
+function allthatglisters:replace/golden_apple_macro with storage allthatglisters:storage

@@ -1,0 +1,1 @@
+$give @s golden_carrot[rarity="uncommon",consumable={"on_consume_effects": [{"type": "apply_effects","effects": [{"id":"night_vision","duration": 1800,"amplifier": 0}]}]}] $(count)

@@ -1,0 +1,20 @@
+{
+    "criteria": {
+        "requirement": {
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:glistering_melon_slice",
+                        "components": {
+                            "minecraft:rarity": "common"
+                        }
+                    }
+                ]
+            },
+            "trigger": "minecraft:inventory_changed"
+        }
+    },
+    "rewards": {
+        "function": "allthatglisters:replace/glistering_melon"
+    }
+}

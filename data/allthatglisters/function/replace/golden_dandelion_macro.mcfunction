@@ -1,0 +1,1 @@
+$give @s golden_dandelion[rarity="uncommon",custom_data={"allthatglisters.golden_flower":true}] $(count)

@@ -4,12 +4,8 @@
             "trigger": "minecraft:player_hurt_entity",
             "conditions": {
                 "entity": {
-                    "type": "minecraft:entity_properties",
-                    "entity": "this",
-                    "predicate": {
-                        "minecraft:entity_type": "minecraft:interaction",
-                        "minecraft:nbt": "{Tags:[\"allthatglisters.egg_interaction\"]}"
-                    }
+                    "minecraft:entity_type": "minecraft:interaction",
+                    "minecraft:nbt": "{Tags:[\"allthatglisters.egg_interaction\"]}"
                 }
             }
         }

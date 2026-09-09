@@ -1,8 +1,8 @@
-advancement revoke @s only allthatglisters:glistering_melon
+advancement revoke @s only allthatglisters:replace/glistering_melon
 
-# Don't run if already ran this tick
-execute store result score .temp allthatglisters.melon run time query gametime
-execute if score @s allthatglisters.melon = .temp allthatglisters.melon run return run scoreboard players operation @s allthatglisters.melon = .temp allthatglisters.melon
-scoreboard players operation @s allthatglisters.melon = .temp allthatglisters.melon
+execute if entity @s[gamemode=creative] if items entity @s hotbar.0 glistering_melon_slice[rarity="common"] run return fail
 
-item modify entity @s {type:"minecraft:filtered",slot_source:[{type:"minecraft:slot_range",slots:"inventory.*"},{type:"minecraft:slot_range",slots:"hotbar.*"}],item_filter:{items:"minecraft:glistering_melon_slice"}} allthatglisters:glistering_melon
+execute store result score #count allthatglisters run clear @s glistering_melon_slice[rarity="common"]
+
+execute store result storage allthatglisters:storage count int 1 run scoreboard players get #count allthatglisters
+function allthatglisters:replace/glistering_melon_macro with storage allthatglisters:storage

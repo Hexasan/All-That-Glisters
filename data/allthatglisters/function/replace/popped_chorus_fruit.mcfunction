@@ -1,8 +1,8 @@
-advancement revoke @s only allthatglisters:chorus_fruit
+advancement revoke @s only allthatglisters:replace/popped_chorus_fruit
 
-# Don't run if already ran this tick
-execute store result score .temp allthatglisters.chorus run time query gametime
-execute if score @s allthatglisters.chorus = .temp allthatglisters.chorus run return run scoreboard players operation @s allthatglisters.chorus = .temp allthatglisters.chorus
-scoreboard players operation @s allthatglisters.chorus = .temp allthatglisters.chorus
+execute if entity @s[gamemode=creative] if items entity @s hotbar.0 popped_chorus_fruit[break_sound="entity.item.break"] run return fail
 
-item modify entity @s {type:"minecraft:filtered",slot_source:[{type:"minecraft:slot_range",slots:"inventory.*"},{type:"minecraft:slot_range",slots:"hotbar.*"}],item_filter:{items:"minecraft:popped_chorus_fruit"}} allthatglisters:popped_chorus_fruit
+execute store result score #count allthatglisters run clear @s popped_chorus_fruit[break_sound="entity.item.break"]
+
+execute store result storage allthatglisters:storage count int 1 run scoreboard players get #count allthatglisters
+function allthatglisters:replace/popped_chorus_fruit_macro with storage allthatglisters:storage

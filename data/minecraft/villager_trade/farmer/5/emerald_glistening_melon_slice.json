@@ -1,0 +1,18 @@
+{
+  "gives": {
+    "count": 3,
+    "id": "minecraft:glistering_melon_slice",
+    "components": {
+            "minecraft:rarity": "uncommon",
+            "minecraft:food": {"nutrition": 6, "saturation": 14.4},
+            "minecraft:consumable": {"consume_seconds": 0.8,"on_consume_effects": [{"type": "apply_effects","effects": [{"id": "regeneration","duration": 1,"amplifier": 7}]}]}
+    }
+  },
+  "max_uses": 12.0,
+  "reputation_discount": 0.05,
+  "wants": {
+    "count": 4.0,
+    "id": "minecraft:emerald"
+  },
+  "xp": 30.0
+}

@@ -2,20 +2,26 @@
     "type": "minecraft:block",
     "pools": [
         {
-            "condition": {
-                "type": "minecraft:survives_explosion"
-            },
+            "conditions": [
+                {
+                    "condition": "minecraft:survives_explosion"
+                }
+            ],
             "entries": [
                 {
                     "type": "minecraft:item",
                     "name": "minecraft:golden_dandelion",
-                    "modifier": {
-                        "type": "minecraft:set_components",
-                        "components": {
-                            "minecraft:rarity": "uncommon",
-                            "minecraft:custom_data": {"allthatglisters.golden_flower":true}
+                    "functions": [
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:rarity": "uncommon",
+                                "minecraft:custom_data": {
+                                    "allthatglisters.golden_flower": true
+                                }
+                            }
                         }
-                    }
+                    ]
                 }
             ],
             "rolls": 1

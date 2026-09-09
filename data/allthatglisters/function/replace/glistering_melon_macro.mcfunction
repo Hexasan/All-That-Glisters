@@ -1,0 +1,1 @@
+$give @s glistering_melon_slice[rarity="uncommon",food={"nutrition": 6, "saturation": 14.4},consumable={"on_consume_effects": [{"type": "apply_effects","effects": [{"id": "regeneration","duration": 1,"amplifier": 7}]}]}] $(count)

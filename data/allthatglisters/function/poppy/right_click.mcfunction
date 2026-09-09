@@ -5,7 +5,7 @@ scoreboard players reset .rc_step allthatglisters
 scoreboard players reset .rc_success allthatglisters
 execute anchored eyes run function allthatglisters:poppy/raycast
 execute unless score .rc_success allthatglisters matches 1 run return fail
-advancement grant @s only allthatglisters:non_technical/use_golden_cornflower
+advancement grant @s only allthatglisters:non_technical/use_golden_poppy
 execute if entity @s[gamemode=creative] run return fail
 execute if predicate allthatglisters:mainhand_poppy run return run item modify entity @s weapon.mainhand allthatglisters:remove_one
 item modify entity @s weapon.offhand allthatglisters:remove_one
